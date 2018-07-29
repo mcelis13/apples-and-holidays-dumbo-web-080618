@@ -75,9 +75,7 @@ supplies = ""
         changeHolidayName = "#{holidayName}"
         changeHolidayName = changeHolidayName.split('_').join(' ').capitalize
         supplies += "  #{changeHolidayName}:  #{supplyArray[0]}, #{supplyArray[1]}"#need put holday name without dashes!
-        supplyArray.each do |supply|
-          supplies += "#{supply}, "
-        end# supplyArray
+        
       end#end of holidayInfoHash
   end#end of holiday_hash
 
