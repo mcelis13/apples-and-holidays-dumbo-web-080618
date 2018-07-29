@@ -78,8 +78,8 @@ supplies = ""
           supplies = "  #{changeHolidayName}: #{supplyArray[0]}"
           puts supplies
         elsif supplyArray.size > 1
-        supplies = "  #{changeHolidayName}: #{supplyArray[0]}, #{supplyArray[1]}"#need put holday name without dashes!
-        puts supplies
+          supplies = "  #{changeHolidayName}: #{supplyArray[0]}, #{supplyArray[1]}"#need put holday name without dashes!
+          puts supplies
         end
       end#end of holidayInfoHash
   end#end of holiday_hash
