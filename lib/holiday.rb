@@ -74,10 +74,10 @@ supplies = ""
       holidayInfoHash.each do |holidayName, supplyArray|
         changeHolidayName = "#{holidayName}"
         changeHolidayName = changeHolidayName.split('_')
-        changeHolidayName.each do |word|
+        capitalized = changeHolidayName.collect do |word|
           word.capitalize
         end
-        changeHolidayName.join(' ')
+
         if supplyArray.size == 1
           supplies = "  #{changeHolidayName}: #{supplyArray[0]}"
           puts supplies
