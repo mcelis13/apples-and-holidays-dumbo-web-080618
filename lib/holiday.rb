@@ -80,7 +80,6 @@ supplies = ""
         end# supplyArray
         if supplies.size > 6
           supplies.slice!(-2).strip
-          supplies.trim
         end
         puts supplies
       end#end of holidayInfoHash
