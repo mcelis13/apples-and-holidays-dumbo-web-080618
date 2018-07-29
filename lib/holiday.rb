@@ -79,7 +79,7 @@ supplies = ""
           supplies += "#{supply}, "
         end# supplyArray
         if supplies.size > 6
-          supplies.slice!(-3)
+          supplies.slice!(-2)
         end
         puts supplies
       end#end of holidayInfoHash
