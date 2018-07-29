@@ -74,7 +74,7 @@ supplies = ""
       holidayInfoHash.each do |holidayName, supplyArray|
         changeHolidayName = "#{holidayName}"
         changeHolidayName = changeHolidayName.split('_').join(' ').capitalize
-        supplies += "   #{changeHolidayName}: "#need put holday name without dashes!
+        supplies += "  #{changeHolidayName}: "#need put holday name without dashes!
         supplyArray.each do |supply|
           supplies += "#{supply}, "
         end# supplyArray
