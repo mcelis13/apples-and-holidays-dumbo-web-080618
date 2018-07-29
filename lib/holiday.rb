@@ -87,7 +87,6 @@ supplies = ""
       end#end of holidayInfoHash
   end#end of holiday_hash
 
-  puts supplies
 end#end of function
 
 def all_holidays_with_bbq(holiday_hash)
