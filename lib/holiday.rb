@@ -74,8 +74,12 @@ supplies = ""
       holidayInfoHash.each do |holidayName, supplyArray|
         changeHolidayName = "#{holidayName}"
         changeHolidayName = changeHolidayName.split('_').join(' ').capitalize
+        if supplyArray.size == 1
+          supplies = "  #{changeHolidayName}: #{supplyArray[0]}"
+        else
         supplies = "  #{changeHolidayName}: #{supplyArray[0]}, #{supplyArray[1]}"#need put holday name without dashes!
         puts supplies
+        end
       end#end of holidayInfoHash
   end#end of holiday_hash
 
