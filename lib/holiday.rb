@@ -73,7 +73,7 @@ supplies = ""
       puts "#{season.capitalize}:"
       holidayInfoHash.each do |holidayName, supplyArray|
         changeHolidayName = "#{holidayName}"
-        changeHolidayName = changeHolidayName.split('_').capitalize.join(' ')
+        changeHolidayName = changeHolidayName.split('_').join(' ').capitalize
         if supplyArray.size == 1
           supplies = "  #{changeHolidayName}: #{supplyArray[0]}"
           puts supplies
