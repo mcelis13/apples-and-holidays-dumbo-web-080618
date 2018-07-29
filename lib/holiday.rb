@@ -78,7 +78,7 @@ supplies = ""
         supplyArray.each do |supply|
           supplies += "#{supply}, "
         end# supplyArray
-        supplies.slice!(-1)
+        supplies.slice!(-2)
         puts supplies
       end#end of holidayInfoHash
   end#end of holiday_hash
