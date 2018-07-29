@@ -81,10 +81,8 @@ supplies = ""
         if supplies.size > 6
           supplies.slice!(-2)
           supplies = supplies.strip!
-          supplies = "  #{supplies}"
           puts supplies
         end
-        puts supplies
       end#end of holidayInfoHash
   end#end of holiday_hash
 
