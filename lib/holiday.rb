@@ -83,6 +83,7 @@ supplies = ""
           supplies = supplies.strip!
           supplies = " #{supplies}"
         end
+        puts supplies
       end#end of holidayInfoHash
   end#end of holiday_hash
 
