@@ -82,7 +82,7 @@ def all_supplies_in_holidays(holiday_hash)
       end#end of holidayInfoHash
   end#end of holiday_hash
 
-  supplies
+
 end#end of function
 
 def all_holidays_with_bbq(holiday_hash)
