@@ -77,7 +77,7 @@ supplies = ""
         capitalized = changeHolidayName.collect do |word|
           word.capitalize
         end
-        capitalized.join(' ')
+        capitalized = capitalized.join(' ')
         if supplyArray.size == 1
           supplies = "  #{capitalized}: #{supplyArray[0]}"
           puts supplies
