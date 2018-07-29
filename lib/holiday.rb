@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
 supplies = ""
 
   holiday_hash.each do |season, holidayInfoHash|
-      puts "#{season.capitalize}: \n"
+      puts "#{season.capitalize}:"
       holidayInfoHash.each do |holidayName, supplyArray|
         changeHolidayName = "#{holidayName}"
         changeHolidayName = changeHolidayName.split('_').join(' ').capitalize
