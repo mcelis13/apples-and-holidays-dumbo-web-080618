@@ -79,7 +79,6 @@ supplies = ""
           supplies += "#{supply}, "
         end# supplyArray
         supplies.slice!(-2)
-        supplies += "\n"
         puts supplies
       end#end of holidayInfoHash
   end#end of holiday_hash
